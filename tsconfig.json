@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "sourceMap": true,
+    "outDir": "ts-build",
+    "jsx": "preserve",
+    "moduleResolution": "node"
+    //"strict": true //React constructor(props, context) errors ...
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
